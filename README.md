@@ -1,13 +1,15 @@
-#1.Start process
+# 1. Start process
 http://localhost:8080/start
 {
 	"processId":"ThreeLevelAuditing",
 	"money":10002
 }
 
-#2.Query Task by processDefinition
+#2. Query Task by processDefinition
 http://localhost:8080/process/candidate/ThreeLevelAuditing
 
+
+Other API:
 # Query active task by processID
 http://localhost:8080/task/candidate?processId=2501
 
