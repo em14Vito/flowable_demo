@@ -1,13 +1,17 @@
-# 1. Start process
+
+# setp:
+## 1. Start process
 http://localhost:8080/start
 {
 	"processId":"ThreeLevelAuditing",
 	"money":10002
 }
 
-# 2. Query Task by processDefinition
+## 2. Query Task by processDefinition
 http://localhost:8080/process/candidate/ThreeLevelAuditing
 
+## Q:
+the step will cause the same ProcessInstance StartTime. 
 
 # Other API:
 ## Query active task by processID
