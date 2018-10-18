@@ -1,0 +1,17 @@
+# exclude everything except directory /.idea
+**/.idea/*
+# exclude log files
+**/logs/*
+log.txt
+# exclue idea config files
+*.iml
+# exclue target dir
+**/target/*
+
+#exclue class files
+**/classes/*
+
+**/*.classpath
+**/*.project
+**/.settings/*
+
